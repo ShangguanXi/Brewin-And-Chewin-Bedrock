@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 6,
+        "saturation_modifier": 0.4,
+        "using_converts_to": "minecraft:glass_bottle"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:use_animation": "drink",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.4
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "brewinandchewin:sweet_berry_jam"
+        }
+      }
+    },
+    "description": {
+      "identifier": "brewinandchewin:sweet_berry_jam",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "brewinandchewin:keg",
+			"menu_category": {
+				"category": "items"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:cardinal_direction"
+					],
+					"y_rotation_offset": 180.0
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							270,
+							0
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.0
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.25
+			},
+			"minecraft:geometry": "geometry.keg",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "keg_front"
+				},
+				"keg_front": {
+					"texture": "keg_front"
+				},
+				"keg_side": {
+					"texture": "keg_side"
+				},
+				"keg_back": {
+					"texture": "keg_back"
+				},
+				"keg_top": {
+					"texture": "keg_top"
+				},
+				"keg_feet": {
+					"texture": "keg_feet"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-7.0,
+					0.0,
+					-8.0
+				],
+				"size": [
+					14.0,
+					16.0,
+					16.0
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-7.0,
+					0.0,
+					-8.0
+				],
+				"size": [
+					14.0,
+					16.0,
+					16.0
+				]
+			}
+		}
+	}
+}

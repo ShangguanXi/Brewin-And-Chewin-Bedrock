@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "brewinandchewin:heating_cask"
+        },
+        "key": {
+            "C": {
+                "item": "minecraft:blaze_powder"
+            },
+            "c": {
+                "item": "minecraft:coal_block"
+            },
+            "m": {
+                "item": "minecraft:magma"
+            },
+            "p": {
+                "tag": "minecraft:planks"
+            },
+            "s": {
+                "tag": "minecraft:wooden_slabs"
+            }
+        },
+        "pattern": [
+            "sss",
+            "cCc",
+            "pmp"
+        ],
+        "result": {
+            "item": "brewinandchewin:heating_cask"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

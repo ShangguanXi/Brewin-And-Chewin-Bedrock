@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "brewinandchewin:temperature_1"
+        }
+      },
+      "minecraft:max_stack_size": 1
+    },
+    "description": {
+      "identifier": "brewinandchewin:temperature_1",
+      "menu_category": {
+        "category": "none"
+      }
+    }
+  }
+}

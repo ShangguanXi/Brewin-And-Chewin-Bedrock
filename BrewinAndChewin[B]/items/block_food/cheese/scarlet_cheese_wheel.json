@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:block_placer": {
+        "block": "brewinandchewin:scarlet_cheese_wheel",
+        "replace_block_item": true
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "brewinandchewin:scarlet_cheese_wheel"
+        }
+      }
+    },
+    "description": {
+      "identifier": "brewinandchewin:scarlet_cheese_wheel",
+      "menu_category": {
+        "category": "equipment",
+        "group": "farmersdelight:itemGroup.name.miscFood"
+      }
+    }
+  }
+}

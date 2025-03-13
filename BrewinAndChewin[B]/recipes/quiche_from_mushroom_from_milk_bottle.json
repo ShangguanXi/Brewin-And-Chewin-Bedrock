@@ -1,0 +1,44 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "brewinandchewin:quiche_from_mushroom_from_milk_bottle"
+        },
+        "key": {
+            "C": {
+                "item": "farmersdelight:pie_crust"
+            },
+            "b": {
+                "item": "minecraft:brown_mushroom"
+            },
+            "c": {
+                "tag": "brewinandchewin:cheese_wedges"
+            },
+            "e": {
+                "item": "minecraft:egg"
+            },
+            "l": {
+                "item": "farmersdelight:cabbage_leaf"
+            },
+            "m": {
+                "item": "farmersdelight:milk_bottle"
+            }
+        },
+        "pattern": [
+            "blb",
+            "mcm",
+            "eCe"
+        ],
+        "result": [
+            {
+                "item": "brewinandchewin:quiche"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

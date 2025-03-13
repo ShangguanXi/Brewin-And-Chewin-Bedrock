@@ -1,0 +1,80 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.keg",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [-7, 2, -8],
+							"size": [14, 14, 16],
+							"uv": {
+								"north": {"uv": [1, 1], "uv_size": [14, 14], "material_instance": "keg_front"},
+								"east": {"uv": [0, 1], "uv_size": [16, 14], "material_instance": "keg_side"},
+								"south": {"uv": [1, 1], "uv_size": [14, 14], "material_instance": "keg_back"},
+								"west": {"uv": [0, 1], "uv_size": [16, 14], "material_instance": "keg_side"},
+								"up": {"uv": [15, 16], "uv_size": [-14, -16], "material_instance": "keg_top"},
+								"down": {"uv": [15, 16], "uv_size": [-14, -16], "material_instance": "keg_top"}
+							}
+						},
+						{
+							"origin": [-7, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [2, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"east": {"uv": [5, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"south": {"uv": [8, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"west": {"uv": [11, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"down": {"uv": [11, 8], "uv_size": [-3, -3], "material_instance": "keg_feet"}
+							}
+						},
+						{
+							"origin": [4, 0, 5],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [2, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"east": {"uv": [5, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"south": {"uv": [8, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"west": {"uv": [11, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"up": {"uv": [0, 0], "uv_size": [0, 0], "material_instance": "keg_feet"},
+								"down": {"uv": [11, 8], "uv_size": [-3, -3], "material_instance": "keg_feet"}
+							}
+						},
+						{
+							"origin": [4, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [2, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"east": {"uv": [5, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"south": {"uv": [8, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"west": {"uv": [11, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"down": {"uv": [11, 8], "uv_size": [-3, -3], "material_instance": "keg_feet"}
+							}
+						},
+						{
+							"origin": [-7, 0, -8],
+							"size": [3, 2, 3],
+							"uv": {
+								"north": {"uv": [2, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"east": {"uv": [5, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"south": {"uv": [8, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"west": {"uv": [11, 8], "uv_size": [3, 2], "material_instance": "keg_feet"},
+								"down": {"uv": [11, 8], "uv_size": [-3, -3], "material_instance": "keg_feet"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

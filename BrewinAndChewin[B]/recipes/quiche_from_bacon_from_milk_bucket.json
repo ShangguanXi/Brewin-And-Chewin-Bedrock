@@ -1,0 +1,44 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "brewinandchewin:quiche_from_bacon_from_milk_bucket"
+        },
+        "key": {
+            "C": {
+                "item": "farmersdelight:pie_crust"
+            },
+            "b": {
+                "item": "farmersdelight:cooked_bacon"
+            },
+            "c": {
+                "tag": "brewinandchewin:cheese_wedges"
+            },
+            "e": {
+                "item": "minecraft:egg"
+            },
+            "l": {
+                "item": "farmersdelight:cabbage_leaf"
+            },
+            "m": {
+                "item": "minecraft:milk_bucket"
+            }
+        },
+        "pattern": [
+            "blb",
+            "mcm",
+            "eCe"
+        ],
+        "result": [
+            {
+                "item": "brewinandchewin:quiche"
+            },
+            {
+                "item": "minecraft:bucket"
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

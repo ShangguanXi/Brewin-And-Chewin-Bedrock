@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "brewinandchewin:tankard"
+        },
+        "key": {
+            "i": {
+                "item": "minecraft:iron_nugget"
+            },
+            "p": {
+                "tag": "minecraft:planks"
+            }
+        },
+        "pattern": [
+            "p p",
+            "i i",
+            "ppp"
+        ],
+        "result": {
+            "count": 4,
+            "item": "brewinandchewin:tankard"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:item": {
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "brewinandchewin:tankard"
+        }
+      }
+    },
+    "description": {
+      "identifier": "brewinandchewin:tankard",
+      "menu_category": {
+        "category": "equipment"
+      }
+    }
+  }
+}

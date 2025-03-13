@@ -1,0 +1,41 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brewinandchewin:pizza_from_minecraft_cooked_beef_from_farmersdelight_cabbage_leaf"
+    },
+    "key": {
+      "f": {
+        "tag": "brewinandchewin:cheese_wedges"
+      },
+      "o": {
+        "item": "farmersdelight:cabbage_leaf"
+      },
+      "p": {
+        "item": "minecraft:cooked_beef"
+      },
+      "t": {
+        "item": "farmersdelight:tomato_sauce"
+      },
+      "w": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "pattern": [
+      " f ",
+      "pto",
+      "www"
+    ],
+    "result": [
+      {
+        "item": "brewinandchewin:pizza"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "tags": [
+      "crafting_table"
+    ]
+  }
+}

@@ -1,0 +1,307 @@
+{
+    "namespace": "keg",
+    "chest_label": {
+        "$new_container_title|default": "$container_title",
+        "text": "$container_title"
+    },
+    "input_grid_panel": {
+        "type": "panel",
+        "grid_position": [
+            0,
+            0
+        ]
+    },
+    "keg_slot": {
+        "type": "image",
+        "texture": "textures/gui/keg_slot",
+        "layer": 1
+    },
+    "keg_panel": {
+        "type": "panel",
+        "controls": [
+            {
+                "container_gamepad_helpers@common.container_gamepad_helpers": {}
+            },
+            {
+                "flying_item_renderer@common.flying_item_renderer": {
+                    "layer": 14
+                }
+            },
+            {
+                "selected_item_details_factory@common.selected_item_details_factory": {}
+            },
+            {
+                "item_lock_notification_factory@common.item_lock_notification_factory": {}
+            },
+            {
+                "root_panel@common.root_panel": {
+                    "layer": 1,
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        176,
+                        182
+                    ],
+                    "controls": [
+                        {
+                            "common_panel@common.common_panel": {}
+                        },
+                        {
+                            "chest_panel": {
+                                "type": "panel",
+                                "layer": 5,
+                                "controls": [
+                                    {
+                                        "keg_name": {
+                                            "type": "label",
+                                            "offset": [
+                                                8,
+                                                8
+                                            ],
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "text": "tile.brewinandchewin:keg.name",
+                                            "localize": true,
+                                            "size": [
+                                                "90%",
+                                                "default"
+                                            ],
+                                            "color": "$title_text_color",
+                                            "layer": 2
+                                        }
+                                    },
+                                    {
+                                        "keg_grid": {
+                                            "type": "grid",
+                                            "size": [
+                                                162,
+                                                18
+                                            ],
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "grid_dimensions": [
+                                                9,
+                                                1
+                                            ],
+                                            "grid_item_template": "chest.chest_grid_item",
+                                            "collection_name": "container_items",
+                                            "controls": [
+                                                {
+                                                    "slot0@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        34,
+                                                                        20
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot1@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            1
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        34,
+                                                                        20
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot2@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            2
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -2,
+                                                                        38
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot3@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            3
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        -2,
+                                                                        38
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot4@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            4
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        16,
+                                                                        65
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot5@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            5
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        30,
+                                                                        28
+                                                                    ],
+                                                                    "$cell_image_size|default": [
+                                                                        30,
+                                                                        30
+                                                                    ],
+                                                                    "$item_renderer_offset|default": [
+                                                                        0,
+                                                                        -2
+                                                                    ],
+                                                                    "$background_images|default": "keg.keg_slot",
+                                                                    "enabled": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot6@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            6
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@chest.chest_grid_item": {
+                                                                    "offset": [
+                                                                        12,
+                                                                        65
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot7@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            7
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@cooking_pot.cooking_pot_item": {
+                                                                    "offset": [
+                                                                        -42,
+                                                                        26
+                                                                    ],
+                                                                    "$cell_image_size|default": [
+                                                                        30,
+                                                                        30
+                                                                    ],
+                                                                    "size": [
+                                                                        30,
+                                                                        30
+                                                                    ],
+                                                                    "enabled": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "slot8@keg.input_grid_panel": {
+                                                        "grid_position": [
+                                                            0,
+                                                            8
+                                                        ],
+                                                        "controls": [
+                                                            {
+                                                                "top_left@cooking_pot.cooking_pot_item": {
+                                                                    "offset": [
+                                                                        -102,
+                                                                        55
+                                                                    ],
+                                                                    "$cell_image_size|default": [
+                                                                        60,
+                                                                        60
+                                                                    ],
+                                                                    "size": [
+                                                                        60,
+                                                                        60
+                                                                    ],
+                                                                    "enabled": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "inventory_panel_bottom_half_with_label@common.inventory_panel_bottom_half_with_label": {}
+                                    },
+                                    {
+                                        "hotbar_grid@common.hotbar_grid_template": {}
+                                    },
+                                    {
+                                        "inventory_take_progress_icon_button@common.inventory_take_progress_icon_button": {}
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "inventory_selected_icon_button@common.inventory_selected_icon_button": {}
+                        },
+                        {
+                            "gamepad_cursor@common.gamepad_cursor_button": {}
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

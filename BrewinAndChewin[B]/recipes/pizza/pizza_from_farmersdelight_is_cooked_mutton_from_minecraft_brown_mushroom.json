@@ -1,0 +1,41 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "brewinandchewin:pizza_from_farmersdelight_is_cooked_mutton_from_minecraft_brown_mushroom"
+    },
+    "key": {
+      "f": {
+        "tag": "brewinandchewin:cheese_wedges"
+      },
+      "o": {
+        "item": "minecraft:brown_mushroom"
+      },
+      "p": {
+        "tag": "farmersdelight:is_cooked_mutton"
+      },
+      "t": {
+        "item": "farmersdelight:tomato_sauce"
+      },
+      "w": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "pattern": [
+      " f ",
+      "pto",
+      "www"
+    ],
+    "result": [
+      {
+        "item": "brewinandchewin:pizza"
+      },
+      {
+        "item": "minecraft:bowl"
+      }
+    ],
+    "tags": [
+      "crafting_table"
+    ]
+  }
+}

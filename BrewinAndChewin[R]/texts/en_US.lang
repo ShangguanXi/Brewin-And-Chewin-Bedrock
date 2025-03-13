@@ -1,0 +1,106 @@
+tile.brewinandchewin:keg.name=Fermentation Barrel
+tile.brewinandchewin:heating_cask.name=Heating Cask
+tile.brewinandchewin:ice_crate.name=Ice Crate
+tile.brewinandchewin:coaster.name=Coaster
+
+item.brewinandchewin:tankard=Tankard
+item.brewinandchewin:beer=Beer
+item.brewinandchewin:vodka=Vodka
+item.brewinandchewin:mead=Mead
+item.brewinandchewin:rice_wine=Rice Wine
+item.brewinandchewin:egg_grog=Egg Grog
+item.brewinandchewin:strongroot_ale=Strongroot Ale
+item.brewinandchewin:saccharine_rum=Saccharine Rum
+item.brewinandchewin:pale_jane=Pale Jane
+item.brewinandchewin:salty_folly=Salty Folly
+item.brewinandchewin:steel_toe_stout=Steel Toe Stout
+item.brewinandchewin:glittering_grenadine=Glittering Grenadine
+item.brewinandchewin:bloody_mary=Bloody Mary
+item.brewinandchewin:red_rum=Red Rum
+item.brewinandchewin:withering_dross=Withering Dross
+item.brewinandchewin:kimchi=Kimchi
+item.brewinandchewin:jerky=Jerky
+item.brewinandchewin:pickled_pickles=Pickled Pickles
+item.brewinandchewin:kippers=Kippers
+item.brewinandchewin:cocoa_fudge=Cocoa Fudge
+item.brewinandchewin:vegetable_omelet=Vegetable Omelet
+item.brewinandchewin:cheesy_pasta=Cheesy Pasta
+item.brewinandchewin:creamy_onion_soup=Creamy Onion Soup
+item.brewinandchewin:scarlet_pierogies=Scarlet Pierogies
+item.brewinandchewin:horror_lasagna=Horror Lasagna
+
+tile.brewinandchewin:unripe_flaxen_cheese_wheel.name=Unripe Flaxen Cheese Wheel
+tile.brewinandchewin:flaxen_cheese_wheel.name=Flaxen Cheese Wheel
+tile.brewinandchewin:unripe_scarlet_cheese_wheel.name=Unripe Scarlet Cheese Wheel
+tile.brewinandchewin:scarlet_cheese_wheel.name=Scarlet Cheese Wheel
+
+item.brewinandchewin:unripe_flaxen_cheese_wheel=Unripe Flaxen Cheese Wheel
+item.brewinandchewin:flaxen_cheese_wheel=Flaxen Cheese Wheel
+item.brewinandchewin:unripe_scarlet_cheese_wheel=Unripe Scarlet Cheese Wheel
+item.brewinandchewin:scarlet_cheese_wheel=Scarlet Cheese Wheel
+
+item.brewinandchewin:flaxen_cheese_wedge=Flaxen Cheese Wedge
+item.brewinandchewin:scarlet_cheese_wedge=Scarlet Cheese Wedge
+tile.brewinandchewin:pizza.name=Pizza
+item.brewinandchewin:pizza=Pizza
+item.brewinandchewin:pizza_slice=Pizza Slice
+tile.brewinandchewin:fiery_fondue_pot.name=Fiery Fondue Pot
+item.brewinandchewin:fiery_fondue_pot=Fiery Fondue Pot
+item.brewinandchewin:fiery_fondue=Fiery Fondue
+item.brewinandchewin:ham_and_cheese_sandwich=Ham and Cheese Sandwich
+tile.brewinandchewin:quiche.name=Quiche
+item.brewinandchewin:quiche=Quiche
+item.brewinandchewin:quiche_slice=Quiche Slice
+item.brewinandchewin:sweet_berry_jam=Sweet Berry Jam
+item.brewinandchewin:glow_berry_marmalade=Glow Berry Marmalade
+item.brewinandchewin:apple_jelly=Apple Jelly
+item.brewinandchewin:dread_nog=Dread Nog
+item.brewinandchewin:kombucha=Kombucha
+
+item.brewinandchewin:book_brewinandchewin=Brewing Guide
+
+brewinandchewin.blockfood.is_knife=You need a knife to cut it!
+
+brewinandchewin.progress_bar.tooltip=Fermentation Progress:
+brewinandchewin:itemGroup.name.liquor=Brewing & Drinking - Liquor
+
+item.water_bucket.name=Water Bucket
+item.cocoa_beans.name=Cocoa Beans
+item.milk_bucket.name=Milk Bucket
+item.turtle_egg.name=Turtle Egg
+item.sea_pickle.name=Sea Pickle
+item.seagrass.name=Seagrass
+item.ink_sac.name=Ink Sac
+item.wither_rose.name=Wither Rose
+item.brown_mushroom.name=Brown Mushroom
+item.crimson_fungus.name=Crimson Fungus
+item.sugar_cane.name=Sugar Cane
+item.undefined=Undefined
+
+brewinandchewin.book.body=§hThis guide contains some basic mod content and fermentation recipes.§r
+brewinandchewin.book.keg.title=Fermentation Barrel
+brewinandchewin.book.keg.body=§nThe Fermentation Barrel§r is an essential workstation in this mod, responsible for producing most of the food and drinks.\n\n§nThe Fermentation Barrel§r has four §einput slots§r, one §dcontainer slot§r, one §bliquid slot§r, and one §aoutput slot§r. The §dcontainer slot§r is also used to transfer liquids into the §bliquid slot§r.\n\nThe §nFermentation Barrel§r requires the §aoutput slot§r to be empty or contain the same item as the output product, and the §bliquid slot§r must be full to function.\n\nEach fermentation recipe has different temperature requirements and fermentation time. You can check the fermentation progress by aiming at the barrel.
+
+brewinandchewin.book.temperature.title=Temperature
+brewinandchewin.book.temperature.body=In this mod, the §nFermentation Barrel§r has five temperature states: §tFrozen§r, §sCold§r, §iRoom Temperature§r, §nWarm§r, and §mHot§r. To change the temperature, you need to place corresponding blocks in a 3×3×3 area centered on the barrel.\n\nPlacing 2-4 cold source blocks results in a §sCold§r state, while 5 or more result in §tFrozen§r.\nCold source blocks include: Ice, Blue Ice, Packed Ice, and blocks with the brewinandchewin:freeze_sources tag.\n\nPlacing 2-4 heat source blocks results in a §nWarm§r state, while 5 or more result in §mHot§r.\nHeat source blocks include: Fire, Soul Fire, Campfire, Soul Campfire, Lava, Magma Block, and blocks with the brewinandchewin:heat_source or farmersdelight:heat_source tags.\n\nThe final temperature is determined by the difference between the number of heat and cold source blocks.
+
+brewinandchewin.book.thanks.title=Credits
+brewinandchewin.book.thanks.permit=§a§lPermit§r\nThis mod is ported following the MIT license of the original Java version: §o§hBrewin' And Chewin'§r! Thanks to §o§rlumpazl, §sProbleyes, and §nMerchantPug§r for creating this wonderful mod.
+brewinandchewin.book.thanks.license=§b§lLicense§r\nThis mod is open-source under the §cGPLv3.0 License§r. You can check the mod repository on my GitHub page.
+brewinandchewin.book.thanks.contributors=§g§lContributors§r\n§cMCcaptain5412
+brewinandchewin.book.recipe.title=Recipe List
+brewinandchewin.book.recipe.base_fluid=§9Base Liquid:§r   
+brewinandchewin.book.recipe.time=§aFermentation Time:§r   
+brewinandchewin.book.recipe.temperature.1=§6Fermentation Temperature: §tFrozen§r
+brewinandchewin.book.recipe.temperature.2=§6Fermentation Temperature: §sCold§r
+brewinandchewin.book.recipe.temperature.3=§6Fermentation Temperature: §iRoom Temperature§r
+brewinandchewin.book.recipe.temperature.4=§6Fermentation Temperature: §nWarm§r
+brewinandchewin.book.recipe.temperature.5=§6Fermentation Temperature: §mHot§r
+brewinandchewin.book.recipe.ingredients=§uFermentation Ingredients:§r
+brewinandchewin.book.recipe.result=§gFermentation Result:§r
+brewinandchewin.book.main=Main Page
+brewinandchewin.book.back=Back
+
+
+pack.description=let`s drink!
+pack.name=Brewin' And Chewin'[B]

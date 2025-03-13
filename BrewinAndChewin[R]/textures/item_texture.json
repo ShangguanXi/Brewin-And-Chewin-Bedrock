@@ -1,0 +1,156 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "brewinandchewin:apple_jelly": {
+      "textures": "textures/items/apple_jelly"
+    },
+    "brewinandchewin:beer": {
+      "textures": "textures/items/beer"
+    },
+    "brewinandchewin:bloody_mary": {
+      "textures": "textures/items/bloody_mary"
+    },
+    "brewinandchewin:cheesy_pasta": {
+      "textures": "textures/items/cheesy_pasta"
+    },
+    "brewinandchewin:cocoa_fudge": {
+      "textures": "textures/items/cocoa_fudge"
+    },
+    "brewinandchewin:creamy_onion_soup": {
+      "textures": "textures/items/creamy_onion_soup"
+    },
+    "brewinandchewin:dread_nog": {
+      "textures": "textures/items/dread_nog"
+    },
+    "brewinandchewin:egg_grog": {
+      "textures": "textures/items/egg_grog"
+    },
+    "brewinandchewin:empty_container_slot_tankard": {
+      "textures": "textures/items/empty_container_slot_tankard"
+    },
+    "brewinandchewin:fiery_fondue": {
+      "textures": "textures/items/fiery_fondue"
+    },
+    "brewinandchewin:fiery_fondue_pot": {
+      "textures": "textures/items/fiery_fondue_pot"
+    },
+    "brewinandchewin:flaxen_cheese_wedge": {
+      "textures": "textures/items/flaxen_cheese_wedge"
+    },
+    "brewinandchewin:flaxen_cheese_wheel": {
+      "textures": "textures/items/flaxen_cheese_wheel"
+    },
+    "brewinandchewin:glittering_grenadine": {
+      "textures": "textures/items/glittering_grenadine"
+    },
+    "brewinandchewin:glow_berry_marmalade": {
+      "textures": "textures/items/glow_berry_marmalade"
+    },
+    "brewinandchewin:ham_and_cheese_sandwich": {
+      "textures": "textures/items/ham_and_cheese_sandwich"
+    },
+    "brewinandchewin:horror_lasagna": {
+      "textures": "textures/items/horror_lasagna"
+    },
+    "brewinandchewin:jerky": {
+      "textures": "textures/items/jerky"
+    },
+    "brewinandchewin:kimchi": {
+      "textures": "textures/items/kimchi"
+    },
+    "brewinandchewin:kippers": {
+      "textures": "textures/items/kippers"
+    },
+    "brewinandchewin:kombucha": {
+      "textures": "textures/items/kombucha"
+    },
+    "brewinandchewin:mead": {
+      "textures": "textures/items/mead"
+    },
+    "brewinandchewin:pale_jane": {
+      "textures": "textures/items/pale_jane"
+    },
+    "brewinandchewin:pickled_pickles": {
+      "textures": "textures/items/pickled_pickles"
+    },
+    "brewinandchewin:pizza": {
+      "textures": "textures/items/pizza"
+    },
+    "brewinandchewin:pizza_slice": {
+      "textures": "textures/items/pizza_slice"
+    },
+    "brewinandchewin:quiche": {
+      "textures": "textures/items/quiche"
+    },
+    "brewinandchewin:quiche_slice": {
+      "textures": "textures/items/quiche_slice"
+    },
+    "brewinandchewin:red_rum": {
+      "textures": "textures/items/red_rum"
+    },
+    "brewinandchewin:rice_wine": {
+      "textures": "textures/items/rice_wine"
+    },
+    "brewinandchewin:saccharine_rum": {
+      "textures": "textures/items/saccharine_rum"
+    },
+    "brewinandchewin:salty_folly": {
+      "textures": "textures/items/salty_folly"
+    },
+    "brewinandchewin:scarlet_cheese_wedge": {
+      "textures": "textures/items/scarlet_cheese_wedge"
+    },
+    "brewinandchewin:scarlet_cheese_wheel": {
+      "textures": "textures/items/scarlet_cheese_wheel"
+    },
+    "brewinandchewin:scarlet_pierogies": {
+      "textures": "textures/items/scarlet_pierogies"
+    },
+    "brewinandchewin:steel_toe_stout": {
+      "textures": "textures/items/steel_toe_stout"
+    },
+    "brewinandchewin:strongroot_ale": {
+      "textures": "textures/items/strongroot_ale"
+    },
+    "brewinandchewin:sweet_berry_jam": {
+      "textures": "textures/items/sweet_berry_jam"
+    },
+    "brewinandchewin:tankard": {
+      "textures": "textures/items/tankard"
+    },
+    "brewinandchewin:unripe_flaxen_cheese_wheel": {
+      "textures": "textures/items/unripe_flaxen_cheese_wheel"
+    },
+    "brewinandchewin:unripe_scarlet_cheese_wheel": {
+      "textures": "textures/items/unripe_scarlet_cheese_wheel"
+    },
+    "brewinandchewin:vegetable_omelet": {
+      "textures": "textures/items/vegetable_omelet"
+    },
+    "brewinandchewin:vodka": {
+      "textures": "textures/items/vodka"
+    },
+    "brewinandchewin:withering_dross": {
+      "textures": "textures/items/withering_dross"
+    },
+    "brewinandchewin:book_brewinandchewin": {
+      "textures": "textures/items/book_brewinandchewin"
+    },
+    "brewinandchewin:temperature_1": {
+      "textures": "textures/items/temperature/temperature_1"
+    },
+    "brewinandchewin:temperature_2": {
+      "textures": "textures/items/temperature/temperature_2"
+    },
+    "brewinandchewin:temperature_3": {
+      "textures": "textures/items/temperature/temperature_3"
+    },
+    "brewinandchewin:temperature_4": {
+      "textures": "textures/items/temperature/temperature_4"
+    },
+    "brewinandchewin:temperature_5": {
+      "textures": "textures/items/temperature/temperature_5"
+    }
+  },
+  "texture_name": "atlas.items"
+}

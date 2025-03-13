@@ -1,0 +1,105 @@
+
+tile.brewinandchewin:keg.name=发酵桶
+tile.brewinandchewin:heating_cask.name=加热桶
+tile.brewinandchewin:ice_crate.name=冰箱
+tile.brewinandchewin:coaster.name=杯垫
+
+item.brewinandchewin:tankard=酒杯
+item.brewinandchewin:beer=啤酒
+item.brewinandchewin:vodka=伏特加
+item.brewinandchewin:mead=蜂蜜酒
+item.brewinandchewin:rice_wine=米酒
+item.brewinandchewin:egg_grog=鸡蛋格罗格 
+item.brewinandchewin:strongroot_ale=强根麦芽酒
+item.brewinandchewin:saccharine_rum=甜果朗姆
+item.brewinandchewin:pale_jane=苍白珍妮
+item.brewinandchewin:salty_folly=咸味海洋
+item.brewinandchewin:steel_toe_stout=钢趾黑啤
+item.brewinandchewin:glittering_grenadine=发光果浆
+item.brewinandchewin:bloody_mary=血腥玛丽
+item.brewinandchewin:red_rum=红朗姆酒
+item.brewinandchewin:withering_dross=凋零糟粕
+item.brewinandchewin:kimchi=泡菜
+item.brewinandchewin:jerky=肉干
+item.brewinandchewin:pickled_pickles=腌泡菜
+item.brewinandchewin:kippers=腌鱼
+item.brewinandchewin:cocoa_fudge=可可软糖
+item.brewinandchewin:vegetable_omelet=蔬菜煎蛋卷
+item.brewinandchewin:cheesy_pasta=奶酪意面
+item.brewinandchewin:creamy_onion_soup=奶油洋葱汤
+item.brewinandchewin:scarlet_pierogies=绯红饺子
+item.brewinandchewin:horror_lasagna=恐怖千层面
+  
+tile.brewinandchewin:unripe_flaxen_cheese_wheel.name=未熟淡黄奶酪轮
+tile.brewinandchewin:flaxen_cheese_wheel.name=淡黄奶酪轮
+tile.brewinandchewin:unripe_scarlet_cheese_wheel.name=未熟绯红奶酪轮
+tile.brewinandchewin:scarlet_cheese_wheel.name=绯红奶酪轮
+  
+item.brewinandchewin:unripe_flaxen_cheese_wheel=未熟淡黄奶酪轮
+item.brewinandchewin:flaxen_cheese_wheel=淡黄奶酪轮
+item.brewinandchewin:unripe_scarlet_cheese_wheel=未熟绯红奶酪轮
+item.brewinandchewin:scarlet_cheese_wheel=绯红奶酪轮
+  
+item.brewinandchewin:flaxen_cheese_wedge=淡黄奶酪块
+item.brewinandchewin:scarlet_cheese_wedge=绯红奶酪块
+tile.brewinandchewin:pizza.name=披萨
+item.brewinandchewin:pizza=披萨
+item.brewinandchewin:pizza_slice=披萨切片
+tile.brewinandchewin:fiery_fondue_pot.name=火热奶酪锅
+item.brewinandchewin:fiery_fondue_pot=火热奶酪锅
+item.brewinandchewin:fiery_fondue=火热奶酪
+item.brewinandchewin:ham_and_cheese_sandwich=火腿奶酪三明治
+tile.brewinandchewin:quiche.name=乳蛋饼
+item.brewinandchewin:quiche=乳蛋饼
+item.brewinandchewin:quiche_slice=乳蛋饼片
+item.brewinandchewin:sweet_berry_jam=甜浆果果酱
+item.brewinandchewin:glow_berry_marmalade=荧光浆果蜜饯
+item.brewinandchewin:apple_jelly=苹果果冻
+item.brewinandchewin:dread_nog=惧怖蛋奶酒
+item.brewinandchewin:kombucha=康普茶
+
+item.brewinandchewin:book_brewinandchewin=酿酒指南
+
+brewinandchewin.blockfood.is_knife=你需要一个刀来切它！
+
+brewinandchewin.progress_bar.tooltip=发酵进度：
+brewinandchewin:itemGroup.name.liquor=饮酒作乐-酒
+
+
+item.water_bucket.name=水桶
+item.cocoa_beans.name=可可豆
+item.milk_bucket.name=奶桶
+item.turtle_egg.name=海龟蛋
+item.sea_pickle.name=海泡菜
+item.seagrass.name=海草
+item.ink_sac.name=墨囊
+item.wither_rose.name=凋零玫瑰
+item.brown_mushroom.name=棕色蘑菇
+item.crimson_fungus.name=绯红菌
+item.sugar_cane.name=甘蔗
+item.undefined=无
+brewinandchewin.book.body=§h本指南包含了一些基础的模组内容及发酵配方。§r 
+brewinandchewin.book.keg.title=发酵桶
+brewinandchewin.book.keg.body=§n发酵桶§r是本模组的重要的一个工作方块，负责产出本模组的绝大部分食物及饮品。\n\n§n发酵桶§r有四个§e输入格§r，一个§d容器格§r，一个§b液体格§r，一个§a输出格§r，其中，§d容器格§r也起到把液体输送到§b液体格§r的作用。\n\n§n发酵桶§r工作的时候，需要§a输出格§r无物品或者含有与输出产物相同的物品并且§b液体格§r的液体达到最大数量。\n\n§n发酵桶§r的每一个发酵配方都有不同的温度要求和发酵时间，当准星对准发酵桶，可以查看正在发酵配方的进度。
+brewinandchewin.book.temperature.title=温度
+brewinandchewin.book.temperature.body=模组中§n发酵桶§r共有五种温度状态：§t冰冻§r、 §s寒冷§r、§i常温§r、 §n温暖§r、§m炎热§r。改变发酵桶的温度状态需要在以发酵桶为中心的3*3*3空间中按数量摆放对应方块。\n\n2-4个冻源方块可以进入§s寒冷§r状态，5个以上则是§t冰冻§r状态。\n冷源方块包含：冰、蓝冰、浮冰、以及含有brewinandchewin:freeze_sources标签的方块。\n\n2-4个热源方块可以进入§n温暖§r状态，5个以上则是§m炎热§r状态。\n热源方块包含：火、灵魂火、营火、灵魂营火、岩浆、岩浆块、以及含有brewinandchewin:heat_source或者farmersdelight:heat_source标签的方块。\n\n最终温度取决于冷源和热源方块数量的差值。
+brewinandchewin.book.thanks.title=鸣谢
+brewinandchewin.book.thanks.permit=§a§l许可§r\n本模组遵循原Java版：§o§h Brewin' And Chewin' §r所采用的MIT协议进行移植！感谢 §o§rlumpazl、§sProbleyes、§nMerchantPug§r创造出这个美妙的模组。
+brewinandchewin.book.thanks.license=§b§l协议§r\n本模组采用§cGPLv3.0 License §r开源。您可以在我的Github主页查看本模组的仓库。
+brewinandchewin.book.thanks.contributors=§g§l贡献者§r\n§c星零大队长
+brewinandchewin.book.recipe.title=配方列表
+brewinandchewin.book.recipe.base_fluid=§9基础液体:§r   
+brewinandchewin.book.recipe.time=§a发酵时间:§r   
+brewinandchewin.book.recipe.temperature.1=§6发酵温度:   §t冰冻§r
+brewinandchewin.book.recipe.temperature.2=§6发酵温度:   §s寒冷§r
+brewinandchewin.book.recipe.temperature.3=§6发酵温度:   §i常温§r
+brewinandchewin.book.recipe.temperature.4=§6发酵温度:   §n温暖§r
+brewinandchewin.book.recipe.temperature.5=§6发酵温度:   §m炎热§r
+brewinandchewin.book.recipe.ingredients=§u发酵材料:§r
+brewinandchewin.book.recipe.result=§g发酵结果: §r
+brewinandchewin.book.main=主页面
+brewinandchewin.book.back=返回
+
+
+pack.description=畅饮！
+pack.name=饮酒作乐[R]

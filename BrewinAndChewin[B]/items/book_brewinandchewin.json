@@ -1,0 +1,18 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+      "components": {
+        "minecraft:icon": {
+          "textures": {
+            "default": "brewinandchewin:book_brewinandchewin"
+          }
+        }
+      },
+      "description": {
+        "identifier": "brewinandchewin:book_brewinandchewin",
+        "menu_category": {
+          "category": "items"
+        }
+      }
+    }
+  }

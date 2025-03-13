@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "brewinandchewin:coaster"
+        },
+        "key": {
+            "c": {
+                "item": "farmersdelight:canvas"
+            }
+        },
+        "pattern": [
+            "cc"
+        ],
+        "result": {
+            "count": 4,
+            "item": "brewinandchewin:coaster"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}
