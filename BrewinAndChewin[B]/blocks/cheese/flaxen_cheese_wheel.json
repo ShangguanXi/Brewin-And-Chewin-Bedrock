@@ -103,16 +103,16 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "flaxen_cheese_wheel_side"
+                    "texture": "brewinandchewin:flaxen_cheese_wheel_side"
                 },
                 "up": {
-                    "texture": "flaxen_cheese_wheel_top"
+                    "texture": "brewinandchewin:flaxen_cheese_wheel_top"
                 },
                 "down": {
-                    "texture": "flaxen_cheese_wheel_bottom"
+                    "texture": "brewinandchewin:flaxen_cheese_wheel_bottom"
                 },
                 "inside": {
-                    "texture": "flaxen_cheese_wheel_inside"
+                    "texture": "brewinandchewin:flaxen_cheese_wheel_inside"
                 }
             },
             "minecraft:custom_components": [

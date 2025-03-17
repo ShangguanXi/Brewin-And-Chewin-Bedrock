@@ -1,4 +1,4 @@
-tile.brewinandchewin:keg.name=Fermentation Barrel
+tile.brewinandchewin:keg.name=Keg
 tile.brewinandchewin:heating_cask.name=Heating Cask
 tile.brewinandchewin:ice_crate.name=Ice Crate
 tile.brewinandchewin:coaster.name=Coaster
@@ -65,6 +65,7 @@ brewinandchewin.progress_bar.tooltip=Fermentation Progress:
 brewinandchewin:itemGroup.name.liquor=Brewing & Drinking - Liquor
 
 item.water_bucket.name=Water Bucket
+item.lily_of_the_valley.name=Lily of the alley
 item.cocoa_beans.name=Cocoa Beans
 item.milk_bucket.name=Milk Bucket
 item.turtle_egg.name=Turtle Egg
@@ -78,11 +79,11 @@ item.sugar_cane.name=Sugar Cane
 item.undefined=Undefined
 
 brewinandchewin.book.body=§hThis guide contains some basic mod content and fermentation recipes.§r
-brewinandchewin.book.keg.title=Fermentation Barrel
-brewinandchewin.book.keg.body=§nThe Fermentation Barrel§r is an essential workstation in this mod, responsible for producing most of the food and drinks.\n\n§nThe Fermentation Barrel§r has four §einput slots§r, one §dcontainer slot§r, one §bliquid slot§r, and one §aoutput slot§r. The §dcontainer slot§r is also used to transfer liquids into the §bliquid slot§r.\n\nThe §nFermentation Barrel§r requires the §aoutput slot§r to be empty or contain the same item as the output product, and the §bliquid slot§r must be full to function.\n\nEach fermentation recipe has different temperature requirements and fermentation time. You can check the fermentation progress by aiming at the barrel.
+brewinandchewin.book.keg.title=Keg
+brewinandchewin.book.keg.body=§nThe Keg§r is an essential workstation in this mod, responsible for producing most of the food and drinks.\n\n§nThe Keg§r has four §einput slots§r, one §dcontainer slot§r, one §bliquid slot§r, and one §aoutput slot§r. The §dcontainer slot§r is also used to transfer liquids into the §bliquid slot§r.\n\nThe §nKeg§r requires the §aoutput slot§r to be empty or contain the same item as the output product, and the §bliquid slot§r must be full to function.\n\nEach fermentation recipe has different temperature requirements and fermentation time. You can check the fermentation progress by aiming at the barrel.
 
 brewinandchewin.book.temperature.title=Temperature
-brewinandchewin.book.temperature.body=In this mod, the §nFermentation Barrel§r has five temperature states: §tFrozen§r, §sCold§r, §iRoom Temperature§r, §nWarm§r, and §mHot§r. To change the temperature, you need to place corresponding blocks in a 3×3×3 area centered on the barrel.\n\nPlacing 2-4 cold source blocks results in a §sCold§r state, while 5 or more result in §tFrozen§r.\nCold source blocks include: Ice, Blue Ice, Packed Ice, and blocks with the brewinandchewin:freeze_sources tag.\n\nPlacing 2-4 heat source blocks results in a §nWarm§r state, while 5 or more result in §mHot§r.\nHeat source blocks include: Fire, Soul Fire, Campfire, Soul Campfire, Lava, Magma Block, and blocks with the brewinandchewin:heat_source or farmersdelight:heat_source tags.\n\nThe final temperature is determined by the difference between the number of heat and cold source blocks.
+brewinandchewin.book.temperature.body=In this mod, the §nKeg§r has five temperature states: §tFrozen§r, §sCold§r, §iRoom Temperature§r, §nWarm§r, and §mHot§r. To change the temperature, you need to place corresponding blocks in a 3×3×3 area centered on the barrel.\n\nPlacing 2-4 cold source blocks results in a §sCold§r state, while 5 or more result in §tFrozen§r.\nCold source blocks include: Ice, Blue Ice, Packed Ice, and blocks with the brewinandchewin:freeze_sources tag.\n\nPlacing 2-4 heat source blocks results in a §nWarm§r state, while 5 or more result in §mHot§r.\nHeat source blocks include: Fire, Soul Fire, Campfire, Soul Campfire, Lava, Magma Block, and blocks with the brewinandchewin:heat_source or farmersdelight:heat_source tags.\n\nThe final temperature is determined by the difference between the number of heat and cold source blocks.
 
 brewinandchewin.book.thanks.title=Credits
 brewinandchewin.book.thanks.permit=§a§lPermit§r\nThis mod is ported following the MIT license of the original Java version: §o§hBrewin' And Chewin'§r! Thanks to §o§rlumpazl, §sProbleyes, and §nMerchantPug§r for creating this wonderful mod.

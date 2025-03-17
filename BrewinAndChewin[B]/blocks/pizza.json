@@ -145,16 +145,16 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "pizza_top"
+                    "texture": "brewinandchewin:pizza_top"
                 },
                 "inner": {
-                    "texture": "pizza_inside"
+                    "texture": "brewinandchewin:pizza_inside"
                 },
                 "side": {
-                    "texture": "pizza_side"
+                    "texture": "brewinandchewin:pizza_side"
                 },
                 "down": {
-                    "texture": "pizza_bottom"
+                    "texture": "brewinandchewin:pizza_bottom"
                 }
             }
         }

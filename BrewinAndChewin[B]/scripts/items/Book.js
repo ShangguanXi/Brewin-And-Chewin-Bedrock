@@ -67,7 +67,7 @@ class Book {
         }
         recipeList.button({ "rawtext": [{ text: "brewinandchewin.book.back" }] });
         recipeList.show(player).then((response) => {
-            if (response.selection == kepRecipes.length || !response.selection)
+            if (response.selection == kepRecipes.length || response.selection == undefined)
                 this.mainForm(player);
             else
                 this.kegRecipeFrom(player, response.selection);

@@ -76,22 +76,22 @@
 			"minecraft:geometry": "geometry.keg",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "keg_front"
+					"texture": "brewinandchewin:keg_front"
 				},
 				"keg_front": {
-					"texture": "keg_front"
+					"texture": "brewinandchewin:keg_front"
 				},
 				"keg_side": {
-					"texture": "keg_side"
+					"texture": "brewinandchewin:keg_side"
 				},
 				"keg_back": {
-					"texture": "keg_back"
+					"texture": "brewinandchewin:keg_back"
 				},
 				"keg_top": {
-					"texture": "keg_top"
+					"texture": "brewinandchewin:keg_top"
 				},
 				"keg_feet": {
-					"texture": "keg_feet"
+					"texture": "brewinandchewin:keg_feet"
 				}
 			},
 			"minecraft:collision_box": {

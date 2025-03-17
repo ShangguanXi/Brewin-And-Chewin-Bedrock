@@ -141,7 +141,7 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "fiery_fondue_pot_sauce"
+                    "texture": "brewinandchewin:fiery_fondue_pot_sauce"
                 },
                 "cauldron_side": {
                     "texture": "cauldron_side"
@@ -156,13 +156,13 @@
                     "texture": "cauldron_bottom"
                 },
                 "fiery_fondue_pot_contents": {
-                    "texture": "fiery_fondue_pot_contents"
+                    "texture": "brewinandchewin:fiery_fondue_pot_contents"
                 },
                 "fiery_fondue_pot_spoon": {
-                    "texture": "fiery_fondue_pot_spoon"
+                    "texture": "brewinandchewin:fiery_fondue_pot_spoon"
                 },
                 "fiery_fondue_pot_sauce": {
-                    "texture": "fiery_fondue_pot_sauce"
+                    "texture": "brewinandchewin:fiery_fondue_pot_sauce"
                 }
             },
             "tag:minecraft:is_pickaxe_item_destructible":{},

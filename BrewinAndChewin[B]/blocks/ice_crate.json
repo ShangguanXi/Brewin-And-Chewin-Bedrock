@@ -10,10 +10,10 @@
 		"components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ice_crate_side"
+                    "texture": "brewinandchewin:ice_crate_side"
                 },
                 "up": {
-                    "texture": "ice_crate_top"
+                    "texture": "brewinandchewin:ice_crate_top"
                 },
                 "down": {
                     "texture": "crate_bottom"

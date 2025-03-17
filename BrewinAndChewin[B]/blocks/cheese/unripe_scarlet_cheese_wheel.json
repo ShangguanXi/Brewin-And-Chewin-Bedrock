@@ -68,13 +68,13 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "unripe_scarlet_cheese_wheel_side"
+                    "texture": "brewinandchewin:unripe_scarlet_cheese_wheel_side"
                 },
                 "up": {
-                    "texture": "unripe_scarlet_cheese_wheel_top"
+                    "texture": "brewinandchewin:unripe_scarlet_cheese_wheel_top"
                 },
                 "down": {
-                    "texture": "unripe_scarlet_cheese_wheel_bottom"
+                    "texture": "brewinandchewin:unripe_scarlet_cheese_wheel_bottom"
                 }
             },
             "minecraft:custom_components": [

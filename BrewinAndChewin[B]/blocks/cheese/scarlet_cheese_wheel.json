@@ -103,16 +103,16 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "scarlet_cheese_wheel_side"
+                    "texture": "brewinandchewin:scarlet_cheese_wheel_side"
                 },
                 "up": {
-                    "texture": "scarlet_cheese_wheel_top"
+                    "texture": "brewinandchewin:scarlet_cheese_wheel_top"
                 },
                 "down": {
-                    "texture": "scarlet_cheese_wheel_bottom"
+                    "texture": "brewinandchewin:scarlet_cheese_wheel_bottom"
                 },
                 "inside": {
-                    "texture": "scarlet_cheese_wheel_inside"
+                    "texture": "brewinandchewin:scarlet_cheese_wheel_inside"
                 }
             },
             "minecraft:custom_components": [

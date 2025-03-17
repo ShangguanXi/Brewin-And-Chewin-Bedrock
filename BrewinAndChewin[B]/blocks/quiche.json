@@ -145,16 +145,16 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "quiche_top"
+                    "texture": "brewinandchewin:quiche_top"
                 },
                 "inner": {
-                    "texture": "quiche_inner"
+                    "texture": "brewinandchewin:quiche_inner"
                 },
                 "side": {
                     "texture": "pie_side"
                 },
                 "top": {
-                    "texture": "quiche_top"
+                    "texture": "brewinandchewin:quiche_top"
                 },
                 "bottom": {
                     "texture": "pie_bottom"

@@ -68,16 +68,16 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "heating_cask_side"
+                    "texture": "brewinandchewin:heating_cask_side"
                 },
                 "up": {
-                    "texture": "heating_cask_top"
+                    "texture": "brewinandchewin:heating_cask_top"
                 },
                 "down": {
-                    "texture": "crate_bottom"
+                    "texture": "brewinandchewin:crate_bottom"
                 },
                 "north": {
-                    "texture": "heating_cask_front"
+                    "texture": "brewinandchewin:heating_cask_front"
                 }
             },
             "minecraft:destructible_by_mining": {
