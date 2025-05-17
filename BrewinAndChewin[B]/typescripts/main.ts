@@ -7,6 +7,7 @@ import { Quiche } from "./blocks/Quiche";
 import { UnripeCheeseComponentRegister } from "./customComponents/blocks/UnripeCheese";
 import { BookItem } from "./items/Book";
 import { Foods } from "./items/Foods";
+import { CookingPotRecipeRegister } from "./register/CookingPotRecipeRegister";
 
 new KegEntity();
 new Keg()
@@ -20,3 +21,6 @@ new Foods();
 new BookItem()
 
 new UnripeCheeseComponentRegister();
+
+
+new CookingPotRecipeRegister();

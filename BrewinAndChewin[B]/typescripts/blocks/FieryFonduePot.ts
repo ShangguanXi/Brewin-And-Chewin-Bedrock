@@ -34,6 +34,7 @@ export class FieryFonduePot {
         else { 
             if (stage<2) block.setPermutation(block.permutation.withState("brewinandchewin:food_block_stage",stage+1))
             else dimension.setBlockType(location,"minecraft:cauldron")
+            ItemAPI.clear(player,player.selectedSlotIndex)
             dimension.spawnItem(new ItemStack("brewinandchewin:fiery_fondue"),location)
         }
 

@@ -1,0 +1,706 @@
+{
+  "cheese_wedge": {
+    "type": "image",
+    "texture": "textures/gui/cheese_wedge",
+    "uv": "@2_fps",
+    "uv_size": [
+      16,
+      16
+    ],
+    "disable_anim_fast_forward": true
+  },
+  "2_fps": {
+    "anim_type": "flip_book",
+    "initial_uv": [
+      0,
+      0
+    ],
+    "frame_count": 2,
+    "frame_step": 16,
+    "fps": 1,
+    "reversible": true,
+    "easing": "linear"
+  },
+  "brewinandchewin_recipe_part_0": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "apple_jelly@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/apple",
+                "$cell1": "textures/items/apple",
+                "$cell2": "textures/items/apple",
+                "$cell3": "textures/items/wheat",
+                "$container": "textures/items/sugar",
+                "$result": "textures/items/apple_jelly"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "cheesy_pasta@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/flaxen_cheese_wedge",
+                "$cell1": "textures/items/tomato",
+                "$cell3": "textures/items/raw_pasta",
+                "$container": "textures/items/bowl",
+                "$result": "textures/items/cheesy_pasta",
+                "controls": [
+                  {
+                    "cell0@cooking_pot.is_raw_fish": {
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1@cooking_pot.cabbage_roll_ingredients": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/flaxen_cheese_wedge"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/raw_pasta"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/tomato"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bowl"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/cheesy_pasta"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "brewinandchewin_recipe_grid_0": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "cooking_pot.brewinandchewin_recipe_part_0"
+  },
+  "brewinandchewin_recipe_part_1": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "creamy_onion_soup@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@cooking_pot.cheese_wedge": {
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell1@cooking_pot.cabbage_roll_ingredients": {
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bread"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/onion"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bowl"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/creamy_onion_soup"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "fiery_fondue_pot@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/tomato_sauce",
+                "$cell1": "textures/items/potato",
+                "$cell2": "textures/items/milk_bottle",
+                "$cell3": "textures/items/scarlet_cheese_wheel",
+                "$cell4": "textures/items/ham",
+                "$cell5": "textures/items/bread",
+                "$container": "textures/items/cauldron",
+                "$result": "textures/items/fiery_fondue_pot"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "brewinandchewin_recipe_grid_1": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "cooking_pot.brewinandchewin_recipe_part_1"
+  },
+  "brewinandchewin_recipe_part_2": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "glow_berry_marmalade@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/glow_berries",
+                "$cell1": "textures/items/glow_berries",
+                "$cell2": "textures/items/glow_berries",
+                "$cell3": "textures/items/sugar",
+                "$container": "textures/items/potion_bottle_empty",
+                "$result": "textures/items/glow_berry_marmalade"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "fried_chicken@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cell0@cooking_pot.cheese_wedge": {
+                "offset": [
+                  -23,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ]
+              }
+            },
+            {
+              "cell1": {
+                "type": "image",
+                "offset": [
+                  -14.625,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/scarlet_cheese_wedge"
+              }
+            },
+            {
+              "cell2": {
+                "type": "image",
+                "offset": [
+                  -6.25,
+                  -7
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/beetroot"
+              }
+            },
+            {
+              "cell3": {
+                "type": "image",
+                "offset": [
+                  -23,
+                  1.5
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/tomato_sauce"
+              }
+            },
+            {
+              "cell4": {
+                "type": "image",
+                "offset": [
+                  -14.625,
+                  1.5
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/raw_pasta"
+              }
+            },
+            {
+              "result": {
+                "type": "image",
+                "offset": [
+                  21,
+                  -5.25
+                ],
+                "size": [
+                  7.5,
+                  7.5
+                ],
+                "texture": "textures/items/horror_lasagna"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "brewinandchewin_recipe_grid_2": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "cooking_pot.brewinandchewin_recipe_part_2"
+  },
+  "brewinandchewin_recipe_part_3": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "scarlet_pierogi@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/scarlet_cheese_wedge",
+                "$cell1": "textures/items/potato",
+                "$cell2": "textures/items/wheat_dough",
+                "$cell3": "textures/items/nether_wart",
+                "$cell4": "textures/items/cabbage",
+                "$container": "textures/items/bowl",
+                "$result": "textures/items/scarlet_pierogies"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "sweet_berry_jam@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            -37.5,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "$cell0": "textures/items/sweet_berries",
+                "$cell1": "textures/items/sweet_berries",
+                "$cell2": "textures/items/sweet_berries",
+                "$cell3": "textures/items/sugar",
+                "$container": "textures/items/potion_bottle_empty",
+                "$result": "textures/items/sweet_berry_jam"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "brewinandchewin_recipe_grid_3": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "cooking_pot.brewinandchewin_recipe_part_3"
+  },
+  "brewinandchewin_recipe_part_4": {
+    "type": "panel",
+    "size": [
+      150,
+      38
+    ],
+    "controls": [
+      {
+        "fruit_beignet@cooking_pot.cooking_pot_recipe": {
+          "texture": "textures/gui/recipe/cooking_recipe",
+          "offset": [
+            0,
+            0
+          ],
+          "size": [
+            75,
+            38
+          ],
+          "controls": [
+            {
+              "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                "controls": [
+                  {
+                    "cell0@cooking_pot.cheese_wedge": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ]
+                    }
+                  },
+                  {
+                    "cell10": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/egg"
+                    }
+                  },
+                  {
+                    "cell2": {
+                      "type": "image",
+                      "offset": [
+                        -6.25,
+                        -7
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/egg"
+                    }
+                  },
+                  {
+                    "cell3": {
+                      "type": "image",
+                      "offset": [
+                        -23,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/onion"
+                    }
+                  },
+                  {
+                    "cell4": {
+                      "type": "image",
+                      "offset": [
+                        -14.625,
+                        1.5
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/carrot"
+                    }
+                  },
+                  {
+                    "container": {
+                      "type": "image",
+                      "offset": [
+                        6,
+                        10.875
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/bowl"
+                    }
+                  },
+                  {
+                    "result": {
+                      "type": "image",
+                      "offset": [
+                        21,
+                        -5.25
+                      ],
+                      "size": [
+                        7.5,
+                        7.5
+                      ],
+                      "texture": "textures/items/vegetable_omelet"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "brewinandchewin_recipe_grid_4": {
+    "type": "grid",
+    "size": [
+      150,
+      38
+    ],
+    "grid_dimensions": [
+      1,
+      1
+    ],
+    "grid_item_template": "cooking_pot.brewinandchewin_recipe_part_4"
+  },
+  "recipe_grid_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "brewinandchewin_recipe_grid_0@cooking_pot.brewinandchewin_recipe_grid_0": {}
+          },
+          {
+            "brewinandchewin_recipe_grid_1@cooking_pot.brewinandchewin_recipe_grid_1": {}
+          },
+          {
+            "brewinandchewin_recipe_grid_2@cooking_pot.brewinandchewin_recipe_grid_2": {}
+          },
+          {
+            "brewinandchewin_recipe_grid_3@cooking_pot.brewinandchewin_recipe_grid_3": {}
+          },
+          {
+            "brewinandchewin_recipe_grid_4@cooking_pot.brewinandchewin_recipe_grid_4": {}
+          }
+        ]
+      }
+    ]
+  }
+}
