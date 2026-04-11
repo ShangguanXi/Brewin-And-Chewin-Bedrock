@@ -1,0 +1,106 @@
+tile.brewinandchewin:keg.name=Barril
+tile.brewinandchewin:heating_cask.name=Tonel De Aquecer
+tile.brewinandchewin:ice_crate.name=Tonel De Gelo
+tile.brewinandchewin:coaster.name=Porta Copos
+
+item.brewinandchewin:tankard=Caneca
+item.brewinandchewin:beer=Cerveja
+item.brewinandchewin:vodka=Vodka
+item.brewinandchewin:mead=Hidromel
+item.brewinandchewin:rice_wine=Vinho De Arroz
+item.brewinandchewin:egg_grog=Gemada
+item.brewinandchewin:strongroot_ale=Cerveja De Raizforte
+item.brewinandchewin:saccharine_rum=Rum Meloso
+item.brewinandchewin:pale_jane=Pale Jane
+item.brewinandchewin:salty_folly=Salty Folly
+item.brewinandchewin:steel_toe_stout=Cerveja Biqueira De Aço
+item.brewinandchewin:glittering_grenadine=Groselha Cintilante
+item.brewinandchewin:bloody_mary=Bloody Mary
+item.brewinandchewin:red_rum=Rum Vermelho
+item.brewinandchewin:withering_dross=Dross Murchando
+item.brewinandchewin:kimchi=Kimchi
+item.brewinandchewin:jerky=Carne Seca
+item.brewinandchewin:pickled_pickles=Picles Em Conserva
+item.brewinandchewin:kippers=Arenque Defumado
+item.brewinandchewin:cocoa_fudge=Fudge De Chocolate
+item.brewinandchewin:vegetable_omelet=Omelete Com Vegetais
+item.brewinandchewin:cheesy_pasta=Macarrão Com Queijo
+item.brewinandchewin:creamy_onion_soup=Sopa De Cebola Cremosa
+item.brewinandchewin:scarlet_pierogies=Pierogies Escarlates
+item.brewinandchewin:horror_lasagna=Lasanha de Terror
+tile.brewinandchewin:unripe_flaxen_cheese_wheel.name=Roda De Queijo Flaxen Não Madura
+tile.brewinandchewin:flaxen_cheese_wheel.name=Roda De Queijo Flaxen
+tile.brewinandchewin:unripe_scarlet_cheese_wheel.name=Roda De Queijo Escarlate Não Madura
+tile.brewinandchewin:scarlet_cheese_wheel.name=Roda De Queijo Escarlate
+
+item.brewinandchewin:unripe_flaxen_cheese_wheel=Roda De Queijo Flaxen Não Madura
+item.brewinandchewin:flaxen_cheese_wheel=Roda De Queijo Madura
+item.brewinandchewin:unripe_scarlet_cheese_wheel=Roda De Queijo Escarlate Não Madura
+item.brewinandchewin:scarlet_cheese_wheel=Roda De Queijo Escarlate
+
+item.brewinandchewin:flaxen_cheese_wedge=Fatia De Queijo Flaxen
+item.brewinandchewin:scarlet_cheese_wedge=Fatia de Queijo Escarlate
+tile.brewinandchewin:pizza.name=Pizza
+item.brewinandchewin:pizza=Pizza
+item.brewinandchewin:pizza_slice=Fatia De Pizza
+tile.brewinandchewin:fiery_fondue_pot.name=Pote De Fondue
+item.brewinandchewin:fiery_fondue_pot=Pote De Fondue
+item.brewinandchewin:fiery_fondue=Fondue Fogarento
+item.brewinandchewin:ham_and_cheese_sandwich=Misto De Presunto E Queijo
+tile.brewinandchewin:quiche.name=Quiche
+item.brewinandchewin:quiche=Quiche
+item.brewinandchewin:quiche_slice=Pedaço De Quiche
+item.brewinandchewin:sweet_berry_jam=Geléia De Baga Doce
+item.brewinandchewin:glow_berry_marmalade=Marmelada De Baga Brilhante
+item.brewinandchewin:apple_jelly=Geléia De Maçã
+item.brewinandchewin:dread_nog=Sinisgemada
+item.brewinandchewin:kombucha=Kombucha
+
+item.brewinandchewin:book_brewinandchewin=Guia De Fermentação
+
+brewinandchewin.blockfood.is_knife=Você Precisa De Uma Faca Pra Cortar Isso!
+
+brewinandchewin.progress_bar.tooltip=Progresso De Fermentação:
+brewinandchewin:itemGroup.name.liquor=Brewin' and chewin' - licor
+
+item.water_bucket.name=Balde De Água
+item.lily_of_the_valley.name=Lírio-do-vale
+item.cocoa_beans.name=Sementes De Cacau
+item.milk_bucket.name=Balde De Leite
+item.turtle_egg.name=Ovo De Tartaruga
+item.sea_pickle.name=Pepino Do Mar
+item.seagrass.name=Alga
+item.ink_sac.name=Bolsa De Tinta
+item.wither_rose.name=Rosa Do Wither
+item.brown_mushroom.name=Cogumelo Marrom
+item.crimson_fungus.name=Fungo Carmesin
+item.sugar_cane.name=Cana-de-açúcar
+item.undefined=Indefinido
+
+brewinandchewin.book.body=§hEsse guia tem conteúdo básico do mod e receitas de fermentação.§r
+brewinandchewin.book.keg.title=Barril
+brewinandchewin.book.keg.body=§nO Barril§r é uma mesa de trabalho nesse mod, responsavel por produzir a maior parte das comidas e bebidas.\n\n§nO Barril§r tem quatro §eslots§r de entrada, um §dslot de container§r, um §bslot de líquido§r, e um §slot de saida§r. O §dslot de container§r também é usado para transferir líquidos para dentro do §slot de liquido§r.\n\nO §nBarril§r precisa que o §aslot de saída§r esteja vazio ou com o mesmo item que o produto, e o §bslot de líquido§r tem que estar cheio para funcionar.\n\nCada receita de Fermentação tem differentes requisitos de temperatura e tempo de Fermentação. Você consegue ver o pregresso de fermentação apontando pro barril.
+
+brewinandchewin.book.temperature.title=Temperatura
+brewinandchewin.book.temperature.body=Nesse mod, o §nBarril§r tem cinco estados de temperatura: §tCongelado§r, §sFrio§r, §iTemperatura Ambiente§r §rMorno§r, e §mQuente§r. Para mudar a temperatura, você precisa posicionar os seguintes blocos em uma area de 3x3x3 centralizada no barril.\n\nColocando 2-4 fontes de frio resulta em um estado de §sFrio§r, enquanto 5 ou mais resulta em §tCongelado§r.\nfontes de frio incluem: Gelo, Gelo Azul, Gelo Compactado, e blocos com a tag brewinandchewin:freeze_sources.\n\nColocando 2-4 fontes de calor resulta em um estado de §nMorno§n, enquanto 5 ou mais resulta em §mQuente§r.\nFontes de calor incluem: Fogo, Fogo das almas, Fogueiras, Fogueira das almas, Lava, Blocos de magma, e blocos com as tags brewinandchewin:heat_source ou farmersdelight:heat_source.\n\nA temperatura final é determinada pela differença entre o numero de fontes de calor e de frio.
+
+brewinandchewin.book.thanks.title=Créditos
+brewinandchewin.book.thanks.permit=§a§lPermição§r\nEsse mod foi portado usando a licensa MTI do mod original da versão Java: §o§hBrewin' And Chewin'§r! Obrigado §o§rlumpazl, §sProbleyes, e §nMerchantPug§r por criar esse mod incrível.
+brewinandchewin.book.thanks.license=§b§lLicença§r\nEsse mod é open-source dentro da licença §cGPLv3.0 License§r. Você pode ver o mod no repositório na minha pagina do Github.
+brewinandchewin.book.thanks.contributors=§g§lContribuidores§r\n§cMCcaptain5412\n§cCurseCobalt
+brewinandchewin.book.recipe.title=Lista De Receitas
+brewinandchewin.book.recipe.base_fluid=§9Líquido Base:§r   
+brewinandchewin.book.recipe.time=§aTempo De Fermentação:§r   
+brewinandchewin.book.recipe.temperature.1=§6Temperatura Da Fermentação: §tCongelado§r
+brewinandchewin.book.recipe.temperature.2=§6Temperatura Da Fermentação: §sFrio§r
+brewinandchewin.book.recipe.temperature.3=§6Temperatura Da Fermentação: §iTemperatura Ambiente§r
+brewinandchewin.book.recipe.temperature.4=§6Temperatura Da Fermentação: §nMorno§r
+brewinandchewin.book.recipe.temperature.5=§6Temperatura Da Fermentação: §mQuente§r
+brewinandchewin.book.recipe.ingredients=§uIngredientes Da Fermentação: §r
+brewinandchewin.book.recipe.result=§gResultado Da Fermentação:§r
+brewinandchewin.book.main=Pagina Principal
+brewinandchewin.book.back=Volta
+
+
+pack.description=Vamo' Beber!
+pack.name=Brewin' and chewin'[B]
