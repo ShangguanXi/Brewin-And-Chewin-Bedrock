@@ -25,3 +25,5 @@ export class FluidType {
         };
     }
 }
+/** 液体物品 -> 从发酵桶取出时需要的容器，其他附属可以通过 brewinandchewin:keg_fluid 追加 */
+export const fluidTypes = new FluidType().fluidType;

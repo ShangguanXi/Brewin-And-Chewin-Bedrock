@@ -1,4 +1,4 @@
-import { Block, Entity, EntityComponentTypes, GameMode, ItemStack, Player, world } from "@minecraft/server";
+import { Block, Entity, EntityComponentTypes, GameMode, ItemStack, Player } from "@minecraft/server";
 import { RandomAPI } from "./RandomAPI";
 export class ItemAPI {
     /**
@@ -21,7 +21,7 @@ export class ItemAPI {
             return;
         const maxDurability = durability.maxDurability;
         const currentDamage = durability.damage;
-        if (player.getGameMode() == GameMode.creative)
+        if (player.getGameMode() == GameMode.Creative)
             return;
         if (maxDurability > currentDamage) {
             durability.damage += damage;
@@ -29,7 +29,7 @@ export class ItemAPI {
             return damage;
         }
         else {
-            world.playSound('random.break', player.location);
+            player.dimension.playSound('random.break', player.location);
             container.setItem(slot, undefined);
         }
     }
@@ -49,7 +49,7 @@ export class ItemAPI {
         if (!itemStack)
             return;
         container.addItem(newItemStack);
-        if (player.getGameMode() == GameMode.creative)
+        if (player.getGameMode() == GameMode.Creative)
             return;
         const itemAmount = itemStack.amount;
         if (itemStack.amount == 1) {
@@ -76,7 +76,7 @@ export class ItemAPI {
         if (!itemStack)
             return;
         if (containerType instanceof Player) {
-            if (containerType.getGameMode() == GameMode.creative)
+            if (containerType.getGameMode() == GameMode.Creative)
                 return;
         }
         const itemAmount = itemStack.amount;

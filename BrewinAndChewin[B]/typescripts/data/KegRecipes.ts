@@ -1,4 +1,4 @@
-export const kepRecipes: Recipe[] = [
+export const kegRecipes: Recipe[] = [
   {
     "basefluid": "minecraft:water_bucket",
     "fermentingtime": 9600,
@@ -310,7 +310,7 @@ export const kepRecipes: Recipe[] = [
         "item": "minecraft:sugar_cane"
       },
       {
-        "item": "minecraft:melon"
+        "item": "minecraft:melon_slice"
       }
     ],
     "result": {
@@ -451,7 +451,7 @@ export const kepRecipes: Recipe[] = [
 ]
 
 
-type Ingredient = {
+export type Ingredient = {
   item?: string;
   tag?: string;
 };

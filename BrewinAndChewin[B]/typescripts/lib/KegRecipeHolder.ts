@@ -1,11 +1,11 @@
 import { BlockVolume, Container, Entity, ItemStack, Vector3 } from "@minecraft/server";
-import { FluidType } from "../data/FluidType";
+import { fluidTypes } from "../data/FluidType";
 import { ItemAPI } from "./ItemAPI";
-import { Recipe } from "../data/KegRcipes";
+import { Recipe } from "../data/KegRecipes";
 import { TemperatureBlockType } from "../data/TemperatureBlockType"
 
 
-const fluidType = new FluidType().fluidType
+const fluidType = fluidTypes
 
 export class KegRecipeHolder {
     constructor(private container: Container, private entity: Entity) { }

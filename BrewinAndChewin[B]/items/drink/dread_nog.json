@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -23,7 +23,21 @@
         "tags": [
           "brewinandchewin:alcoholic_beverage"
         ]
-      }
+      },
+      "farmersdelight:consume_effects": [
+        {
+          "effect": "nausea",
+          "duration": 200
+        },
+        {
+          "effect": "bad_omen",
+          "duration": 72000
+        },
+        {
+          "effect": "wither",
+          "duration": 1200
+        }
+      ]
     },
     "description": {
       "identifier": "brewinandchewin:dread_nog",

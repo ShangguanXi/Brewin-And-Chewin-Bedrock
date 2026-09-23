@@ -76,6 +76,7 @@ item.wither_rose.name=Wither Rose
 item.brown_mushroom.name=Brown Mushroom
 item.crimson_fungus.name=Crimson Fungus
 item.sugar_cane.name=Sugar Cane
+item.melon_slice.name=Melon Slice
 item.undefined=Undefined
 
 brewinandchewin.book.body=§hThis guide contains some basic mod content and fermentation recipes.§r

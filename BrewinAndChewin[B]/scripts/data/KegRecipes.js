@@ -1,4 +1,4 @@
-export const kepRecipes = [
+export const kegRecipes = [
     {
         "basefluid": "minecraft:water_bucket",
         "fermentingtime": 9600,
@@ -310,7 +310,7 @@ export const kepRecipes = [
                 "item": "minecraft:sugar_cane"
             },
             {
-                "item": "minecraft:melon"
+                "item": "minecraft:melon_slice"
             }
         ],
         "result": {

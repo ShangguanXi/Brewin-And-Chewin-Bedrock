@@ -6,21 +6,21 @@ import { Pizza } from "./blocks/Pizza";
 import { Quiche } from "./blocks/Quiche";
 import { UnripeCheeseComponentRegister } from "./customComponents/blocks/UnripeCheese";
 import { BookItem } from "./items/Book";
-import { Foods } from "./items/Foods";
-import { CookingPotRecipeRegister } from "./register/CookingPotRecipeRegister";
+import { KegRecipeRegister } from "./register/KegRecipeRegister";
+import { RecipeRegister } from "./register/RecipeRegister";
 
 new KegEntity();
 new Keg()
+new KegRecipeRegister();
 
 new Cheese()
 new FieryFonduePot();
 new Quiche();
 new Pizza();
 
-new Foods();
 new BookItem()
 
 new UnripeCheeseComponentRegister();
 
 
-new CookingPotRecipeRegister();
+new RecipeRegister();

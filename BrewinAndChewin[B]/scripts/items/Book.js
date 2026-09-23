@@ -9,14 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { ActionFormData } from '@minecraft/server-ui';
 import { ItemUseAfterEvent, world } from "@minecraft/server";
-import { kepRecipes } from '../data/KegRcipes';
+import { kegRecipes } from '../data/KegRecipes';
 import { EventAPI } from '../lib/EventAPI';
 class Book {
     generateRecipeText(selection) {
         let result = { "rawtext": [] };
         if (!selection && selection != 0)
             return result;
-        const recipe = kepRecipes[selection];
+        const recipe = kegRecipes[selection];
         const baseFluid = [
             { translate: "brewinandchewin.book.recipe.base_fluid" },
             { translate: recipe.basefluid?.includes("minecraft") ? "item." + recipe.basefluid.split(":")[1] + ".name" : "item." + recipe.basefluid },
@@ -52,7 +52,7 @@ class Book {
         console.warn(selection);
         if (!selection && selection != 0)
             return;
-        let kegForm = new ActionFormData().title({ "rawtext": [{ text: "item." + kepRecipes[selection].result.item }] })
+        let kegForm = new ActionFormData().title({ "rawtext": [{ text: "item." + kegRecipes[selection].result.item }] })
             .button({ "rawtext": [{ text: "brewinandchewin.book.back" }] });
         kegForm.body(this.generateRecipeText(selection));
         kegForm.show(player).then((response) => {
@@ -62,12 +62,15 @@ class Book {
     recipeListForm(player) {
         let recipeList = new ActionFormData()
             .title({ "rawtext": [{ text: "brewinandchewin.book.recipe.title" }] });
-        for (let i = 0; i < kepRecipes.length; i++) {
-            recipeList.button({ "rawtext": [{ text: "item." + kepRecipes[i].result.item }] }, "textures/items/" + kepRecipes[i].result.item.replace("brewinandchewin:", ""));
+        for (let i = 0; i < kegRecipes.length; i++) {
+            const item = kegRecipes[i].result.item;
+            // 其他附属注册的配方不知道贴图路径，不显示图标
+            const icon = item.startsWith("brewinandchewin:") ? "textures/items/" + item.replace("brewinandchewin:", "") : undefined;
+            recipeList.button({ "rawtext": [{ text: "item." + item }] }, icon);
         }
         recipeList.button({ "rawtext": [{ text: "brewinandchewin.book.back" }] });
         recipeList.show(player).then((response) => {
-            if (response.selection == kepRecipes.length || response.selection == undefined)
+            if (response.selection == kegRecipes.length || response.selection == undefined)
                 this.mainForm(player);
             else
                 this.kegRecipeFrom(player, response.selection);

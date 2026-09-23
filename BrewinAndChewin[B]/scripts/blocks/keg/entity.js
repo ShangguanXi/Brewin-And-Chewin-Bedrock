@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { ItemStack, world, system } from "@minecraft/server";
 import { EventAPI } from "../../lib/EventAPI";
 import { BlockEntity } from "../../lib/BlockWithEntity";
-import { kepRecipes } from "../../data/KegRcipes";
+import { kegRecipes } from "../../data/KegRecipes";
 import { KegRecipeHolder } from "../../lib/KegRecipeHolder";
 export class KegEntity extends BlockEntity {
     constructor() {
@@ -49,11 +49,13 @@ export class KegEntity extends BlockEntity {
             return;
         const progress = entity.getDynamicProperty("brewinandchewin:progress") ?? 0;
         const KegRecipe = new KegRecipeHolder(container, entity);
-        entity.setDynamicProperty("brewinandchewin:temperature", KegRecipe.checkTemperature());
-        container.setItem(8, new ItemStack(`brewinandchewin:temperature_${KegRecipe.checkTemperature()}`));
+        const temperature = KegRecipe.checkTemperature();
+        entity.setDynamicProperty("brewinandchewin:temperature", temperature);
+        container.setItem(8, new ItemStack(`brewinandchewin:temperature_${temperature}`));
         KegRecipe.fillResultSlot();
         KegRecipe.fillFluidSlot();
-        KegRecipe.findMatchingRecipe(kepRecipes);
+        // 内置配方和其他附属通过 brewinandchewin:keg_recipe 注册的配方
+        KegRecipe.findMatchingRecipe(kegRecipes);
     }
 }
 __decorate([

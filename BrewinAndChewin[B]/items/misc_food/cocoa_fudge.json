@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:food": {
@@ -16,6 +16,16 @@
         "textures": {
           "default": "brewinandchewin:cocoa_fudge"
         }
+      },
+      "farmersdelight:consume_effects": [
+        {
+          "effect": "speed",
+          "duration": 800,
+          "amplifier": 1
+        }
+      ],
+      "minecraft:compostable": {
+        "composting_chance": 65
       }
     },
     "description": {

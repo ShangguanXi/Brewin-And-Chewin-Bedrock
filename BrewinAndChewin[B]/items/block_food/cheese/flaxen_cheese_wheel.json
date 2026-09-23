@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.60",
+  "format_version": "1.21.90",
   "minecraft:item": {
     "components": {
       "minecraft:block_placer": {
@@ -10,6 +10,9 @@
         "textures": {
           "default": "brewinandchewin:flaxen_cheese_wheel"
         }
+      },
+      "minecraft:compostable": {
+        "composting_chance": 45
       }
     },
     "description": {

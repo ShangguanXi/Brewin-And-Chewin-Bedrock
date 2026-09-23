@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.60",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "brewinandchewin:unripe_scarlet_cheese_wheel",
@@ -77,9 +77,7 @@
                     "texture": "brewinandchewin:unripe_scarlet_cheese_wheel_bottom"
                 }
             },
-            "minecraft:custom_components": [
-                "brewinandchewin:unripe_cheese"
-            ],
+            "brewinandchewin:unripe_cheese": {},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5,
                 "item_specific_speeds": [

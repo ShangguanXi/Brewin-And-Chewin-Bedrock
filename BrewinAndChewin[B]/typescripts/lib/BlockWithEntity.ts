@@ -1,6 +1,5 @@
 import { Block, Container, Dimension, Entity, EntityInventoryComponent, EntityQueryOptions, ScoreboardObjective, system, Vector3, world } from "@minecraft/server";
 import ObjectUtil from "./ObjectUtil";
-const scoreboard = world.scoreboard;
 
 export class BlockWithEntity {
     //名为setblock实际上是放置对应方块实体的实体，若成功则返回放置的实体
@@ -26,7 +25,7 @@ export class BlockWithEntity {
             };
         };
         if (!entityBlock) return undefined;
-        const scoreboardObjective: ScoreboardObjective | null = scoreboard.getObjective(entityBlock.typeId + entityBlock.id) ?? null;
+        const scoreboardObjective: ScoreboardObjective | null = world.scoreboard.getObjective(entityBlock.typeId + entityBlock.id) ?? null;
         const blockEntityDataLocation: Vector3 = entityBlock.getDynamicProperty('brewinandchewin:blockEntityDataLocation') as Vector3;
         return { block: block, dimension: dimension, entity: entityBlock, scoreboardObjective: scoreboardObjective, blockEntityDataLocation: blockEntityDataLocation };
     }
@@ -48,7 +47,7 @@ export class BlockEntity {
             const dimension: Dimension = entity?.dimension ?? undefined;
             const blockEntityDataLocation = entity.getDynamicProperty('brewinandchewin:blockEntityDataLocation') as Vector3;
             const block = dimension.getBlock(blockEntityDataLocation) as Block;
-            const scoreboardObjective = scoreboard.getObjective(entity.typeId + entity.id) ?? null;
+            const scoreboardObjective = world.scoreboard.getObjective(entity.typeId + entity.id) ?? null;
             const blockEntityData: BlockEntityData = { entity: entity, dimension: dimension, blockEntityDataLocation: blockEntityDataLocation, block: block, scoreboardObjective: scoreboardObjective }
             return blockEntityData;
         } catch (error) {
@@ -75,7 +74,7 @@ export class BlockEntity {
     //清除方块实体
     public static clearEntity(args: BlockEntityData) {
         if (args.scoreboardObjective) {
-            scoreboard.removeObjective(args.entity.typeId + args.entity.id);
+            world.scoreboard.removeObjective(args.entity.typeId + args.entity.id);
         }
         system.runTimeout(() => {
             args.entity.remove();

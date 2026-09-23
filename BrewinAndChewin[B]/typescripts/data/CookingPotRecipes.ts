@@ -78,7 +78,7 @@ export const cookingPotRecipes = [
                 "tag": "farmersdelight:cabbage_roll_ingredients"
             },
             {
-                "tag": "minecraft:bread"
+                "item": "minecraft:bread"
             }
         ],
         "recipe_book_tab": "meals",
@@ -153,7 +153,7 @@ export const cookingPotRecipes = [
         }
     },
     {
-        "identifer": "brewinandchewin:glow_berry_marmalade",
+        "identifer": "brewinandchewin:horror_lasagna",
         "type": "farmersdelight:cooking",
         "time": 100,
         "priority": 0,

@@ -1,6 +1,5 @@
 import { system, world } from "@minecraft/server";
 import ObjectUtil from "./ObjectUtil";
-const scoreboard = world.scoreboard;
 export class BlockWithEntity {
     //名为setblock实际上是放置对应方块实体的实体，若成功则返回放置的实体
     setBlock(dimension, location, entityId) {
@@ -26,7 +25,7 @@ export class BlockWithEntity {
         ;
         if (!entityBlock)
             return undefined;
-        const scoreboardObjective = scoreboard.getObjective(entityBlock.typeId + entityBlock.id) ?? null;
+        const scoreboardObjective = world.scoreboard.getObjective(entityBlock.typeId + entityBlock.id) ?? null;
         const blockEntityDataLocation = entityBlock.getDynamicProperty('brewinandchewin:blockEntityDataLocation');
         return { block: block, dimension: dimension, entity: entityBlock, scoreboardObjective: scoreboardObjective, blockEntityDataLocation: blockEntityDataLocation };
     }
@@ -38,7 +37,7 @@ export class BlockEntity {
             const dimension = entity?.dimension ?? undefined;
             const blockEntityDataLocation = entity.getDynamicProperty('brewinandchewin:blockEntityDataLocation');
             const block = dimension.getBlock(blockEntityDataLocation);
-            const scoreboardObjective = scoreboard.getObjective(entity.typeId + entity.id) ?? null;
+            const scoreboardObjective = world.scoreboard.getObjective(entity.typeId + entity.id) ?? null;
             const blockEntityData = { entity: entity, dimension: dimension, blockEntityDataLocation: blockEntityDataLocation, block: block, scoreboardObjective: scoreboardObjective };
             return blockEntityData;
         }
@@ -72,7 +71,7 @@ export class BlockEntity {
     //清除方块实体
     static clearEntity(args) {
         if (args.scoreboardObjective) {
-            scoreboard.removeObjective(args.entity.typeId + args.entity.id);
+            world.scoreboard.removeObjective(args.entity.typeId + args.entity.id);
         }
         system.runTimeout(() => {
             args.entity.remove();

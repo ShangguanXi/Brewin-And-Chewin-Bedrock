@@ -1,4 +1,4 @@
-import { BlockCustomComponent, BlockComponentPlayerInteractEvent, WorldInitializeBeforeEvent, world, Dimension, Vector3, BlockVolumeBase, BlockVolume, EntityInventoryComponent, Container, ItemStack, BlockComponentRandomTickEvent, BlockType } from "@minecraft/server";
+import { BlockCustomComponent, BlockComponentPlayerInteractEvent, StartupEvent, system, Dimension, Vector3, BlockVolumeBase, BlockVolume, EntityInventoryComponent, Container, ItemStack, BlockComponentRandomTickEvent, BlockType } from "@minecraft/server";
 import { EventAPI } from "../../lib/EventAPI";
 
 class UnripeCheeseComponent implements BlockCustomComponent {
@@ -24,8 +24,8 @@ class UnripeCheeseComponent implements BlockCustomComponent {
 
 }
 export class UnripeCheeseComponentRegister {
-    @EventAPI.register(world.beforeEvents.worldInitialize)
-    register(args: WorldInitializeBeforeEvent) {
+    @EventAPI.register(system.beforeEvents.startup)
+    register(args: StartupEvent) {
         args.blockComponentRegistry.registerCustomComponent('brewinandchewin:unripe_cheese', new UnripeCheeseComponent());
     }
 

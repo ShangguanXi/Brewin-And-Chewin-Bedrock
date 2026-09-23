@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.60",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "brewinandchewin:flaxen_cheese_wheel",
@@ -115,9 +115,7 @@
                     "texture": "brewinandchewin:flaxen_cheese_wheel_inside"
                 }
             },
-            "minecraft:custom_components": [
-                "farmersdelight:interact"
-            ],
+            "farmersdelight:interact": {},
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5,
                 "item_specific_speeds": [

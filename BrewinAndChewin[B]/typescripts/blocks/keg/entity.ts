@@ -2,7 +2,7 @@ import { Dimension, Entity, ItemStack, Vector3, world, Block, ScoreboardObjectiv
 import ObjectUtil from "../../lib/ObjectUtil";
 import { EventAPI } from "../../lib/EventAPI";
 import { BlockEntity } from "../../lib/BlockWithEntity";
-import { kepRecipes } from "../../data/KegRcipes";
+import { kegRecipes } from "../../data/KegRecipes";
 import { KegRecipeHolder } from "../../lib/KegRecipeHolder";
 
 
@@ -48,11 +48,13 @@ export class KegEntity extends BlockEntity {
         if (!container) return;
         const progress: number = entity.getDynamicProperty("brewinandchewin:progress") as number ?? 0;
         const KegRecipe = new KegRecipeHolder(container,entity)
-        entity.setDynamicProperty("brewinandchewin:temperature",KegRecipe.checkTemperature())
-        container.setItem(8,new ItemStack(`brewinandchewin:temperature_${KegRecipe.checkTemperature()}`))
+        const temperature = KegRecipe.checkTemperature()
+        entity.setDynamicProperty("brewinandchewin:temperature",temperature)
+        container.setItem(8,new ItemStack(`brewinandchewin:temperature_${temperature}`))
         KegRecipe.fillResultSlot()
         KegRecipe.fillFluidSlot()
-        KegRecipe.findMatchingRecipe(kepRecipes);
+        // 内置配方和其他附属通过 brewinandchewin:keg_recipe 注册的配方
+        KegRecipe.findMatchingRecipe(kegRecipes);
     }
 
 
