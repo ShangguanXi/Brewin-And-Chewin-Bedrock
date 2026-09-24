@@ -46,12 +46,12 @@ export class BlockEntity {
         }
     }
     ;
-    //对使用容器组件存储物品的方块实体检测掉落
+    //对使用容器组件存储物品的方块实体检测掉落，方块已不在时掉落物品并清除实体，返回实体是否已被清除
     entityContainerLoot(args, id) {
         if (!ObjectUtil.isEqual(args.entity.location, args.blockEntityDataLocation))
             args.entity.teleport(args.blockEntityDataLocation);
         if (args.block?.typeId == id)
-            return;
+            return false;
         const entity = args.entity;
         const dimension = args.dimension;
         const inventory = entity.getComponent("inventory");
@@ -62,10 +62,13 @@ export class BlockEntity {
             const itemStack = container.getItem(i);
             if (itemStack) {
                 dimension.spawnItem(itemStack, entity.location);
+                //实体下一刻才移除，先清空，避免期间再次触发时重复掉落
+                container.setItem(i, undefined);
             }
         }
         ;
         BlockEntity.clearEntity(args);
+        return true;
     }
     ;
     //清除方块实体
@@ -74,7 +77,8 @@ export class BlockEntity {
             world.scoreboard.removeObjective(args.entity.typeId + args.entity.id);
         }
         system.runTimeout(() => {
-            args.entity.remove();
+            if (args.entity.isValid)
+                args.entity.remove();
         });
     }
 }

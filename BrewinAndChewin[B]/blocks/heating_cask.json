@@ -74,7 +74,7 @@
                     "texture": "brewinandchewin:heating_cask_top"
                 },
                 "down": {
-                    "texture": "brewinandchewin:crate_bottom"
+                    "texture": "crate_bottom"
                 },
                 "north": {
                     "texture": "brewinandchewin:heating_cask_front"

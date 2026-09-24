@@ -12,7 +12,7 @@
         "tag": "farmersdelight:is_cooked_chicken"
       },
       "p": {
-        "tag": "farmersdelight:is_cooked_pork"
+        "tag": "farmersdelight:is_cooked_porkchop"
       },
       "t": {
         "item": "farmersdelight:tomato_sauce"

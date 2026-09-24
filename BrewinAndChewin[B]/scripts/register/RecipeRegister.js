@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { WorldLoadAfterEvent, system, world } from "@minecraft/server";
 import { EventAPI } from "../lib/EventAPI";
 import { cookingPotRecipes } from "../data/CookingPotRecipes";
+import { cuttingBoardRecipes } from "../data/CuttingBoardRecipes";
 /**
  * 通过农夫乐事的脚本事件注册配方
  * @param id 脚本事件ID
@@ -24,6 +25,7 @@ export class RecipeRegister {
     register(args) {
         system.run(() => {
             sendRecipes("farmersdelight:cooking_pot_recipe", cookingPotRecipes);
+            sendRecipes("farmersdelight:cutting_board_recipe", cuttingBoardRecipes);
         });
     }
 }

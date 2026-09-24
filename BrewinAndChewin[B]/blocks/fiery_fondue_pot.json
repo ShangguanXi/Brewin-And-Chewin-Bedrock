@@ -164,7 +164,8 @@
                 }
             },
             "tag:minecraft:is_pickaxe_item_destructible":{},
-            "minecraft:loot": "loot_tables/brewinandchewin/blocks/fiery_fondue_pot.json"
+            "minecraft:loot": "loot_tables/brewinandchewin/blocks/fiery_fondue_pot.json",
+            "minecraft:geometry": "geometry.fiery_fondue_pot_filled"
         }
     }
 }

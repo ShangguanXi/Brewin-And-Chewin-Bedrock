@@ -157,7 +157,8 @@
                 "bottom": {
                     "texture": "pie_bottom"
                 }
-            }
+            },
+            "minecraft:geometry": "geometry.pie"
         }
     }
 }

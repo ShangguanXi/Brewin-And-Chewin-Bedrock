@@ -154,7 +154,8 @@
                 "down": {
                     "texture": "brewinandchewin:pizza_bottom"
                 }
-            }
+            },
+            "minecraft:geometry": "geometry.pizza"
         }
     }
 }
